@@ -1,0 +1,16 @@
+D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\bin\Debug\net7.0\ETS.Schema.deps.json
+D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\bin\Debug\net7.0\ETS.Schema.dll
+D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\bin\Debug\net7.0\ETS.Schema.pdb
+D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\bin\Debug\net7.0\ETS.Base.dll
+D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\bin\Debug\net7.0\ETS.Base.pdb
+D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\obj\Debug\net7.0\ETS.Schema.csproj.AssemblyReference.cache
+D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\obj\Debug\net7.0\ETS.Schema.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\obj\Debug\net7.0\ETS.Schema.AssemblyInfoInputs.cache
+D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\obj\Debug\net7.0\ETS.Schema.AssemblyInfo.cs
+D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\obj\Debug\net7.0\ETS.Schema.csproj.CoreCompileInputs.cache
+D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\obj\Debug\net7.0\ETS.Schema.sourcelink.json
+D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\obj\Debug\net7.0\ETS.Schema.csproj.CopyComplete
+D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\obj\Debug\net7.0\ETS.Schema.dll
+D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\obj\Debug\net7.0\refint\ETS.Schema.dll
+D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\obj\Debug\net7.0\ETS.Schema.pdb
+D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\obj\Debug\net7.0\ref\ETS.Schema.dll
