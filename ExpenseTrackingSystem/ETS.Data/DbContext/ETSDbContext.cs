@@ -2,9 +2,9 @@ using Microsoft.EntityFrameworkCore;
 using ETS.Data;
 
 namespace ETS.Data;
-public class ExpenseTrackingDbContext : DbContext
+public class ETSDbContext : DbContext
 {
-    public ExpenseTrackingDbContext(DbContextOptions<ExpenseTrackingDbContext> options) : base(options)
+    public ETSDbContext(DbContextOptions<ETSDbContext> options) : base(options)
     {
 
     }
