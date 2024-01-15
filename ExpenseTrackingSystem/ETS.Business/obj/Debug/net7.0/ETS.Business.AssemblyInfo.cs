@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ETS.Business")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6feed7c15d90ba3f525ec443c6488a8d052d0d5")]
 [assembly: System.Reflection.AssemblyProductAttribute("ETS.Business")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ETS.Business")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

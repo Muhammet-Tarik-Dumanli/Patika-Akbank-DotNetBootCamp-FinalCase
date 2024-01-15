@@ -52,7 +52,7 @@
           "dependencies": {
             "LinqKit": {
               "target": "Package",
-              "version": "[1.2.4, )"
+              "version": "[1.2.5, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -60,7 +60,7 @@
             },
             "Serilog.AspNetCore": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[8.0.0, )"
             },
             "Serilog.Sinks.File": {
               "target": "Package",
@@ -160,31 +160,19 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[12.0.0, )"
+              "version": "[12.0.1, )"
             },
             "FluentValidation.AspNetCore": {
               "target": "Package",
-              "version": "[9.5.2, )"
+              "version": "[11.3.0, )"
             },
             "FluentValidation.DependencyInjectionExtensions": {
               "target": "Package",
-              "version": "[9.5.2, )"
-            },
-            "Hangfire": {
-              "target": "Package",
-              "version": "[1.7.28, )"
-            },
-            "Hangfire.PostgreSql": {
-              "target": "Package",
-              "version": "[1.9.8, )"
-            },
-            "Hangfire.PostgreSql.Npgsql5": {
-              "target": "Package",
-              "version": "[1.9.8, )"
+              "version": "[11.9.0, )"
             },
             "MediatR": {
               "target": "Package",
-              "version": "[12.0.0, )"
+              "version": "[12.2.0, )"
             },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -294,10 +282,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.14, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
-              "target": "Package",
-              "version": "[7.0.11, )"
             }
           },
           "imports": [
