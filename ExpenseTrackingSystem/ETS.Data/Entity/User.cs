@@ -7,7 +7,7 @@ namespace ETS.Data.Entity;
 
 public class User
 {
-    public int UserId { get; set; }
+    public int Id { get; set; }
     public string UserName { get; set; }
     public string Password { get; set; }
     public string FirstName { get; set; }
@@ -28,7 +28,7 @@ public class UserConfiguration : IEntityTypeConfiguration<User>
     {
         builder.ToTable("User", "dbo");
 
-        builder.Property(x => x.UserId).IsRequired(true);
+        builder.Property(x => x.Id).IsRequired(true);
         builder.Property(x => x.UserName).IsRequired(true).HasMaxLength(50);
         builder.Property(x => x.Password).IsRequired(true).HasMaxLength(50);
         builder.Property(x => x.FirstName).IsRequired(true).HasMaxLength(50);

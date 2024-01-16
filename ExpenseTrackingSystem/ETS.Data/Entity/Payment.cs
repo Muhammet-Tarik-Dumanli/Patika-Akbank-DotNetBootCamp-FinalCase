@@ -7,7 +7,7 @@ namespace ETS.Data.Entity;
 
 public class Payment
 {
-    public int PaymentId { get; set; }
+    public int Id { get; set; }
     public int ExpenseId { get; set; }
     public decimal Amount { get; set; }
     public DateTime PaymentDate { get; set; }
@@ -24,7 +24,7 @@ public class PaymentConfiguration : IEntityTypeConfiguration<Payment>
     {
         builder.ToTable("Payment", "dbo");
 
-        builder.Property(x => x.PaymentId).IsRequired(true);
+        builder.Property(x => x.Id).IsRequired(true);
         builder.Property(x => x.ExpenseId).IsRequired(true);
         builder.Property(x => x.Amount).IsRequired(true).HasPrecision(18, 4);
         builder.Property(x => x.PaymentDate).IsRequired(true);

@@ -7,7 +7,7 @@ namespace ETS.Data.Entity;
 
 public class Expense
 {
-    public int ExpenseId { get; set; }
+    public int Id { get; set; }
     public int UserId { get; set; }
     public int CategoryId { get; set; }
     public decimal Amount { get; set; }
@@ -30,7 +30,7 @@ public class ExpenseConfiguration : IEntityTypeConfiguration<Expense>
     {
         builder.ToTable("Expense", "dbo");
 
-        builder.Property(x => x.ExpenseId).IsRequired(true);
+        builder.Property(x => x.Id).IsRequired(true);
         builder.Property(x => x.UserId).IsRequired(true);
         builder.Property(x => x.CategoryId).IsRequired(true);
         builder.Property(x => x.Amount).IsRequired(true).HasPrecision(18, 4);
