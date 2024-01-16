@@ -1,51 +1,41 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Api\\ETS.Api.csproj": {}
+    "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Api\\ETS.Api.csproj": {}
   },
   "projects": {
-    "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Api\\ETS.Api.csproj": {
+    "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Api\\ETS.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Api\\ETS.Api.csproj",
+        "projectUniqueName": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Api\\ETS.Api.csproj",
         "projectName": "ETS.Api",
-        "projectPath": "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Api\\ETS.Api.csproj",
-        "packagesPath": "C:\\Users\\mtarik.dumanli\\.nuget\\packages\\",
-        "outputPath": "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Api\\obj\\",
+        "projectPath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Api\\ETS.Api.csproj",
+        "packagesPath": "C:\\Users\\MUHAMMET\\.nuget\\packages\\",
+        "outputPath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
-          "D:\\Provision\\Lib\\DevExpress_23_2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mtarik.dumanli\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\MUHAMMET\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\Provision\\Lib\\DevExpress_23_2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Business\\ETS.Business.csproj": {
-                "projectPath": "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Business\\ETS.Business.csproj"
+              "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Business\\ETS.Business.csproj": {
+                "projectPath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Business\\ETS.Business.csproj"
               },
-              "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\ETS.Data.csproj": {
-                "projectPath": "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\ETS.Data.csproj"
+              "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\ETS.Data.csproj": {
+                "projectPath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\ETS.Data.csproj"
               },
-              "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Schema\\ETS.Schema.csproj": {
-                "projectPath": "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Schema\\ETS.Schema.csproj"
+              "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Schema\\ETS.Schema.csproj": {
+                "projectPath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Schema\\ETS.Schema.csproj"
               }
             }
           }
@@ -57,8 +47,8 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -116,43 +106,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj": {
+    "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj",
+        "projectUniqueName": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj",
         "projectName": "ETS.Base",
-        "projectPath": "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj",
-        "packagesPath": "C:\\Users\\mtarik.dumanli\\.nuget\\packages\\",
-        "outputPath": "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\obj\\",
+        "projectPath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj",
+        "packagesPath": "C:\\Users\\MUHAMMET\\.nuget\\packages\\",
+        "outputPath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
-          "D:\\Provision\\Lib\\DevExpress_23_2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mtarik.dumanli\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\MUHAMMET\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\Provision\\Lib\\DevExpress_23_2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -163,8 +143,8 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "LinqKit": {
               "target": "Package",
@@ -203,49 +183,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Business\\ETS.Business.csproj": {
+    "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Business\\ETS.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Business\\ETS.Business.csproj",
+        "projectUniqueName": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Business\\ETS.Business.csproj",
         "projectName": "ETS.Business",
-        "projectPath": "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Business\\ETS.Business.csproj",
-        "packagesPath": "C:\\Users\\mtarik.dumanli\\.nuget\\packages\\",
-        "outputPath": "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Business\\obj\\",
+        "projectPath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Business\\ETS.Business.csproj",
+        "packagesPath": "C:\\Users\\MUHAMMET\\.nuget\\packages\\",
+        "outputPath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Business\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
-          "D:\\Provision\\Lib\\DevExpress_23_2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mtarik.dumanli\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\MUHAMMET\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\Provision\\Lib\\DevExpress_23_2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\ETS.Data.csproj": {
-                "projectPath": "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\ETS.Data.csproj"
+              "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\ETS.Data.csproj": {
+                "projectPath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\ETS.Data.csproj"
               },
-              "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Schema\\ETS.Schema.csproj": {
-                "projectPath": "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Schema\\ETS.Schema.csproj"
+              "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Schema\\ETS.Schema.csproj": {
+                "projectPath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Schema\\ETS.Schema.csproj"
               }
             }
           }
@@ -257,8 +227,8 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -297,46 +267,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\ETS.Data.csproj": {
+    "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\ETS.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\ETS.Data.csproj",
+        "projectUniqueName": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\ETS.Data.csproj",
         "projectName": "ETS.Data",
-        "projectPath": "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\ETS.Data.csproj",
-        "packagesPath": "C:\\Users\\mtarik.dumanli\\.nuget\\packages\\",
-        "outputPath": "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\obj\\",
+        "projectPath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\ETS.Data.csproj",
+        "packagesPath": "C:\\Users\\MUHAMMET\\.nuget\\packages\\",
+        "outputPath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
-          "D:\\Provision\\Lib\\DevExpress_23_2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mtarik.dumanli\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\MUHAMMET\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\Provision\\Lib\\DevExpress_23_2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj": {
-                "projectPath": "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj"
+              "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj": {
+                "projectPath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj"
               }
             }
           }
@@ -348,8 +308,8 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -388,46 +348,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Schema\\ETS.Schema.csproj": {
+    "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Schema\\ETS.Schema.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Schema\\ETS.Schema.csproj",
+        "projectUniqueName": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Schema\\ETS.Schema.csproj",
         "projectName": "ETS.Schema",
-        "projectPath": "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Schema\\ETS.Schema.csproj",
-        "packagesPath": "C:\\Users\\mtarik.dumanli\\.nuget\\packages\\",
-        "outputPath": "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Schema\\obj\\",
+        "projectPath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Schema\\ETS.Schema.csproj",
+        "packagesPath": "C:\\Users\\MUHAMMET\\.nuget\\packages\\",
+        "outputPath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Schema\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
-          "D:\\Provision\\Lib\\DevExpress_23_2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mtarik.dumanli\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\MUHAMMET\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\Provision\\Lib\\DevExpress_23_2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj": {
-                "projectPath": "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj"
+              "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj": {
+                "projectPath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj"
               }
             }
           }
@@ -439,8 +389,8 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",
@@ -457,7 +407,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -8,7 +8,7 @@ using ETS.Base.Response;
 using ETS.Base.Token;
 using ETS.Business.CQRS;
 using ETS.Data.Entity;
-using ETS.Data.ETSDbContext;
+using ETS.Data;
 using ETS.Schema;
 using MediatR;
 using Microsoft.IdentityModel.Tokens;

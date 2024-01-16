@@ -1,6 +1,6 @@
 using System.Reflection;
 using ETS.Business.CQRS;
-using ETS.Data.ETSDbContext;
+using ETS.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 

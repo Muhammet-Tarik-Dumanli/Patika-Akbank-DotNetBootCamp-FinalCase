@@ -1,7 +1,7 @@
-using Microsoft.EntityFrameworkCore;
 using ETS.Data.Entity;
+using Microsoft.EntityFrameworkCore;
 
-namespace ETS.Data.ETSDbContext;
+namespace ETS.Data;
 
 public class ETSDbContext : DbContext
 {
