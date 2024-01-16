@@ -1,3 +1,5 @@
+using System.Reflection;
+using ETS.Business.CQRS;
 using ETS.Data.ETSDbContext;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
@@ -19,6 +21,7 @@ public class Startup
         string connection = Configuration.GetConnectionString("MsSqlConnection");
         services.AddDbContext<ETSDbContext>(options => options.UseSqlServer(connection));
 
+        services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Startup).GetTypeInfo().Assembly));
         services.AddControllers();
         services.AddSwaggerGen(c =>
         {
