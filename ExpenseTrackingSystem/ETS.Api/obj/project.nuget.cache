@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8KNoKwqILwxKwtMJ5f+nFjZ09HlohrEyNjTyv8Ww6uCG0ce2LEjLAyGsqCyDpPqBPSL5jzK47F9gAaMFwl2kVw==",
+  "dgSpecHash": "IUFXI6pu0nwROQU1RFAf5qURGUCcSK4AMFciCjXzPbOqzmKuCwH5xqtrwTHGXSvLQiRePVPHgAcRHuBl1EjjIw==",
   "success": true,
   "projectFilePath": "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Api\\ETS.Api.csproj",
   "expectedPackageFiles": [
@@ -264,11 +264,7 @@
     "C:\\Users\\mtarik.dumanli\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\mtarik.dumanli\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\mtarik.dumanli\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\mtarik.dumanli\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\mtarik.dumanli\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\mtarik.dumanli\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\mtarik.dumanli\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\mtarik.dumanli\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+    "C:\\Users\\mtarik.dumanli\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": [
     {
@@ -278,7 +274,7 @@
       "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.2.0 was resolved.",
       "libraryId": "MediatR",
       "targetGraphs": [
-        "net7.0"
+        "net8.0"
       ]
     }
   ]

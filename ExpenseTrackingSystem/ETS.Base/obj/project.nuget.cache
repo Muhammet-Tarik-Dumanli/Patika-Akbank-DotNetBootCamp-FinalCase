@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0se1Bv0H8666D0OZsgfDgVwPvGqC4p7Np+iKF6VYIfsadrLx9vahePL3EiPTfXcKOvUo0AWAYZNCBBBlugUG5Q==",
+  "dgSpecHash": "9p2/ENgNcir2/uXQs0LxU8ED1B3wfw//Mb/lXU7ClfS4qEW0B9UgFiN4xfj15dW3yj6+Z7QAwLUgjQK9IYpbAw==",
   "success": true,
   "projectFilePath": "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj",
   "expectedPackageFiles": [
@@ -61,10 +61,7 @@
     "C:\\Users\\mtarik.dumanli\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\mtarik.dumanli\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
     "C:\\Users\\mtarik.dumanli\\.nuget\\packages\\system.threading.tasks\\4.0.11\\system.threading.tasks.4.0.11.nupkg.sha512",
-    "C:\\Users\\mtarik.dumanli\\.nuget\\packages\\system.windows.extensions\\4.6.0\\system.windows.extensions.4.6.0.nupkg.sha512",
-    "C:\\Users\\mtarik.dumanli\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\mtarik.dumanli\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\mtarik.dumanli\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512"
+    "C:\\Users\\mtarik.dumanli\\.nuget\\packages\\system.windows.extensions\\4.6.0\\system.windows.extensions.4.6.0.nupkg.sha512"
   ],
   "logs": []
 }

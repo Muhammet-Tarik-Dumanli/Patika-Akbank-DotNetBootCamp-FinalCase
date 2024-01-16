@@ -1,0 +1,13 @@
+D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Base\bin\Debug\net8.0\ETS.Base.deps.json
+D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Base\bin\Debug\net8.0\ETS.Base.dll
+D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Base\bin\Debug\net8.0\ETS.Base.pdb
+D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Base\obj\Debug\net8.0\ETS.Base.csproj.AssemblyReference.cache
+D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Base\obj\Debug\net8.0\ETS.Base.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Base\obj\Debug\net8.0\ETS.Base.AssemblyInfoInputs.cache
+D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Base\obj\Debug\net8.0\ETS.Base.AssemblyInfo.cs
+D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Base\obj\Debug\net8.0\ETS.Base.csproj.CoreCompileInputs.cache
+D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Base\obj\Debug\net8.0\ETS.Base.sourcelink.json
+D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Base\obj\Debug\net8.0\ETS.Base.dll
+D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Base\obj\Debug\net8.0\refint\ETS.Base.dll
+D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Base\obj\Debug\net8.0\ETS.Base.pdb
+D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Base\obj\Debug\net8.0\ref\ETS.Base.dll
