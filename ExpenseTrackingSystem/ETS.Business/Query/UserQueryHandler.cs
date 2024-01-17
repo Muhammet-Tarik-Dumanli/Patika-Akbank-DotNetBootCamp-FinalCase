@@ -26,7 +26,7 @@ public class UserQueryHandler :
 
     public async Task<ApiResponse<List<UserResponse>>> Handle(GetAllUsersQuery request, CancellationToken cancellationToken)
     {
-        var list = await dbContext.Set<User>().ToListAsync(cancellationToken);
+        var list =  dbContext.Set<User>().ToList();
 
         var mappedList = mapper.Map<List<User>, List<UserResponse>>(list);
         return new ApiResponse<List<UserResponse>>(mappedList);
@@ -34,7 +34,7 @@ public class UserQueryHandler :
 
     public async Task<ApiResponse<UserResponse>> Handle(GetUserByIdQuery request, CancellationToken cancellationToken)
     {
-        var entity = await dbContext.Set<User>().FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
+        var entity =  dbContext.Set<User>().FirstOrDefault(x => x.Id == request.Id);
 
         if(entity == null)
             return new ApiResponse<UserResponse>("Record not found!");

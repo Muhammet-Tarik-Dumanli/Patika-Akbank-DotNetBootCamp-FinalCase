@@ -1,6 +1,6 @@
 namespace ETS.Base.Encryption;
 
-public class MD5Extension
+public class Md5Extension
 {
     public static string Create(string input)
     {

@@ -1,13 +1,11 @@
+using ETS.Base.Entity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
 
 namespace ETS.Data.Entity;
 
-public class ExpenseCategory
+public class ExpenseCategory : BaseEntityWithId
 {
-    public int Id { get; set; }
     public string CategoryName { get; set; }
 
     public List<Expense> Expenses { get; set; } = new List<Expense>();

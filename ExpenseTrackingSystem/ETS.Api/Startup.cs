@@ -1,13 +1,10 @@
 using System.Reflection;
 using System.Text;
 using AutoMapper;
-using ETS.Base.Response;
 using ETS.Base.Token;
-using ETS.Business.Command;
 using ETS.Business.CQRS;
 using ETS.Business.Mapper;
 using ETS.Data;
-using ETS.Schema;
 using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
@@ -31,7 +28,7 @@ public class Startup
         string connection = Configuration.GetConnectionString("MsSqlConnection");
         services.AddDbContext<ETSDbContext>(options => options.UseSqlServer(connection));
 
-        services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Startup).GetTypeInfo().Assembly));
+        services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(CreateUserCommand).GetTypeInfo().Assembly));
 
         var mapperConfig = new MapperConfiguration(cfg => cfg.AddProfile(new MapperConfig()));
         services.AddSingleton(mapperConfig.CreateMapper());

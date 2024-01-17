@@ -20,7 +20,7 @@ public class UsersController : ControllerBase
     }
     
     [HttpGet("MyProfile")]
-    [Authorize(Roles = "admin")]
+    [Authorize(Roles = "admin, personal")]
     public async Task<ApiResponse<UserResponse>> MyProfile()
     {
         string id = (User.Identity as ClaimsIdentity).FindFirst("Id")?.Value;

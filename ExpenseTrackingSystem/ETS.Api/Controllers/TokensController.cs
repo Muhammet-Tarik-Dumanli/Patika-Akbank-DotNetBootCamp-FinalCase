@@ -6,17 +6,18 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ETS.Api.Controllers;
 
+
 [Route("api/[controller]")]
 [ApiController]
-public class TokensController : ControllerBase
+public class TokenController : ControllerBase
 {
     private readonly IMediator mediator;
 
-    public TokensController(IMediator mediator)
+    public TokenController(IMediator mediator)
     {
         this.mediator = mediator;
     }
-
+    
     [HttpPost]
     public async Task<ApiResponse<TokenResponse>> Post([FromBody] TokenRequest request)
     {

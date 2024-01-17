@@ -3334,47 +3334,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mtarik.dumanli\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages": {},
-    "D:\\Provision\\Lib\\DevExpress_23_2\\Components\\Offline Packages": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\MUHAMMET\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Schema\\ETS.Schema.csproj",
+      "projectUniqueName": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Schema\\ETS.Schema.csproj",
       "projectName": "ETS.Schema",
-      "projectPath": "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Schema\\ETS.Schema.csproj",
-      "packagesPath": "C:\\Users\\mtarik.dumanli\\.nuget\\packages\\",
-      "outputPath": "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Schema\\obj\\",
+      "projectPath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Schema\\ETS.Schema.csproj",
+      "packagesPath": "C:\\Users\\MUHAMMET\\.nuget\\packages\\",
+      "outputPath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Schema\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
-        "D:\\Provision\\Lib\\DevExpress_23_2\\Components\\Offline Packages",
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\mtarik.dumanli\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\MUHAMMET\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\Provision\\Lib\\DevExpress_23_2\\Components\\System\\Components\\Packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj": {
-              "projectPath": "D:\\Pratikler\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj"
+            "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj": {
+              "projectPath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj"
             }
           }
         }
@@ -3399,26 +3386,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.14, 7.0.14]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.14, 7.0.14]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[7.0.14, 7.0.14]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }

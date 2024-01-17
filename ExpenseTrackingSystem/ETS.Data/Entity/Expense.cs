@@ -1,11 +1,10 @@
+using ETS.Base.Entity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
 
 namespace ETS.Data.Entity;
 
-public class Expense
+public class Expense : BaseEntityWithId
 {
     public int Id { get; set; }
     public int UserId { get; set; }

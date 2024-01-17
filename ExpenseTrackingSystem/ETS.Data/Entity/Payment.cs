@@ -1,13 +1,11 @@
+using ETS.Base.Entity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
 
 namespace ETS.Data.Entity;
 
-public class Payment
+public class Payment : BaseEntityWithId
 {
-    public int Id { get; set; }
     public int ExpenseId { get; set; }
     public decimal Amount { get; set; }
     public DateTime PaymentDate { get; set; }
