@@ -14,6 +14,7 @@ public class ApplicationUser
     public string Role { get; set; }
     public DateTime LastActivityDate { get; set; }
     public int Status { get; set; }
+    public bool IsActive { get; set; }
 }
 
 public class ApplicationUserConfiguration : IEntityTypeConfiguration<ApplicationUser>

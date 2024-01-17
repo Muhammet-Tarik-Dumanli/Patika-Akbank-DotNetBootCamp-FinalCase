@@ -1,7 +1,17 @@
 using System.Reflection;
+using System.Text;
+using AutoMapper;
+using ETS.Base.Response;
+using ETS.Base.Token;
+using ETS.Business.Command;
 using ETS.Business.CQRS;
+using ETS.Business.Mapper;
 using ETS.Data;
+using ETS.Schema;
+using MediatR;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 
 namespace ETS.Api;
@@ -22,10 +32,66 @@ public class Startup
         services.AddDbContext<ETSDbContext>(options => options.UseSqlServer(connection));
 
         services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Startup).GetTypeInfo().Assembly));
+
+        var mapperConfig = new MapperConfiguration(cfg => cfg.AddProfile(new MapperConfig()));
+        services.AddSingleton(mapperConfig.CreateMapper());
+
         services.AddControllers();
+        // services.AddControllers().AddFluentValidation(x =>
+        // {
+        //     x.RegisterValidatorsFromAssemblyContaining<CreateCustomerValidator>();
+        // });
+
+        services.AddEndpointsApiExplorer();
+        services.AddSwaggerGen();
+
         services.AddSwaggerGen(c =>
         {
-            c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebApi", Version = "v1" });
+            c.SwaggerDoc("v1", new OpenApiInfo { Title = "Expense Tracking System", Version = "v1.0" });
+
+            var securityScheme = new OpenApiSecurityScheme
+            {
+                Name = "Expense Tracking System for IT Company",
+                Description = "Enter JWT Bearer token **_only_**",
+                In = ParameterLocation.Header,
+                Type = SecuritySchemeType.Http,
+                Scheme = "bearer",
+                BearerFormat = "JWT",
+                Reference = new OpenApiReference
+                {
+                    Id = JwtBearerDefaults.AuthenticationScheme,
+                    Type = ReferenceType.SecurityScheme
+                }
+            };
+            c.AddSecurityDefinition(securityScheme.Reference.Id, securityScheme);
+            c.AddSecurityRequirement(new OpenApiSecurityRequirement
+            {
+                { securityScheme, new string[] { } }
+            });
+        });
+
+        JwtConfig jwtConfig = Configuration.GetSection("JwtConfig").Get<JwtConfig>();
+        services.Configure<JwtConfig>(Configuration.GetSection("JwtConfig"));
+
+        services.AddAuthentication(x =>
+        {
+            x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+            x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+        }).AddJwtBearer(x =>
+        {
+            x.RequireHttpsMetadata = true;
+            x.SaveToken = true;
+            x.TokenValidationParameters = new TokenValidationParameters
+            {
+                ValidateIssuer = true,
+                ValidIssuer = jwtConfig.Issuer,
+                ValidateIssuerSigningKey = true,
+                IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(jwtConfig.Secret)),
+                ValidAudience = jwtConfig.Audience,
+                ValidateAudience = false,
+                ValidateLifetime = true,
+                ClockSkew = TimeSpan.FromMinutes(2)
+            };
         });
 
     }
@@ -37,10 +103,12 @@ public class Startup
         {
             app.UseDeveloperExceptionPage();
             app.UseSwagger();
-            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebApi v1"));
+            app.UseSwaggerUI();
         }
 
         app.UseHttpsRedirection();
+
+        app.UseAuthentication();
 
         app.UseRouting();
 
