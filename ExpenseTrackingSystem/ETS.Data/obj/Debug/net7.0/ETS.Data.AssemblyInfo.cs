@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ETS.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90be69f0ecdd27a401bfb52746e38c3ddae350b9")]
 [assembly: System.Reflection.AssemblyProductAttribute("ETS.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ETS.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
