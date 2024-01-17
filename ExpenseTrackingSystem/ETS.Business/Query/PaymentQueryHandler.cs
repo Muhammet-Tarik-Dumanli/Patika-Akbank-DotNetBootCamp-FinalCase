@@ -1,0 +1,1 @@
+namespace ETS.Business.Query;

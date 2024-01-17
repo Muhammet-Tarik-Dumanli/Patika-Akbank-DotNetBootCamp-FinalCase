@@ -1,12 +1,12 @@
 using System.Data.Entity;
 using AutoMapper;
 using ETS.Base.Response;
+using ETS.Business.CQRS;
 using ETS.Data;
 using ETS.Data.Entity;
 using ETS.Schema;
 using LinqKit;
 using MediatR;
-using static ETS.Business.CQRS.ApplicationUserCQRS;
 
 namespace ETS.Business.Query;
 

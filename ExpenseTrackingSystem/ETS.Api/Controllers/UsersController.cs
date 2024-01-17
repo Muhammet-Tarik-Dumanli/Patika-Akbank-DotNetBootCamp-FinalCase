@@ -10,69 +10,69 @@ namespace ETS.Api.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
-public class ApplicationUsersController : ControllerBase
+public class UsersController : ControllerBase
 {
     private readonly IMediator mediator;
 
-    public ApplicationUsersController(IMediator mediator)
+    public UsersController(IMediator mediator)
     {
         this.mediator = mediator;
     }
     
     [HttpGet("MyProfile")]
     [Authorize(Roles = "admin")]
-    public async Task<ApiResponse<ApplicationUserResponse>> MyProfile()
+    public async Task<ApiResponse<UserResponse>> MyProfile()
     {
         string id = (User.Identity as ClaimsIdentity).FindFirst("Id")?.Value;
-        var operation = new GetApplicationUserByIdQuery(int.Parse(id));
+        var operation = new GetUserByIdQuery(int.Parse(id));
         var result = await mediator.Send(operation);
         return result;
     }
     
     [HttpGet]
     [Authorize(Roles = "admin")]
-    public async Task<ApiResponse<List<ApplicationUserResponse>>> Get()
+    public async Task<ApiResponse<List<UserResponse>>> Get()
     {
-        var operation = new GetAllApplicationUserQuery();
+        var operation = new GetAllUsersQuery();
         var result = await mediator.Send(operation);
         return result;
     }
 
     [HttpGet("{id}")]
     [Authorize(Roles = "admin")]
-    public async Task<ApiResponse<ApplicationUserResponse>> Get(int id)
+    public async Task<ApiResponse<UserResponse>> Get(int id)
     {
-        var operation = new GetApplicationUserByIdQuery(id);
+        var operation = new GetUserByIdQuery(id);
         var result = await mediator.Send(operation);
         return result;
     }
 
     [HttpGet("ByParameters")]
     [Authorize(Roles = "admin")]
-    public async Task<ApiResponse<List<ApplicationUserResponse>>> GetByParameter(
+    public async Task<ApiResponse<List<UserResponse>>> GetByParameter(
         [FromQuery] string? FirstName,
         [FromQuery] string? LastName,
         [FromQuery] string? UserName)
     {
-        var operation = new GetApplicationUserByParameterQuery(FirstName,LastName,UserName);
+        var operation = new GetUserByParameterQuery(FirstName,LastName,UserName);
         var result = await mediator.Send(operation);
         return result;
     }
 
     [HttpPost]
     [Authorize(Roles = "admin")]
-    public async Task<ApiResponse<ApplicationUserResponse>> Post([FromBody] ApplicationUserRequest ApplicationUser)
+    public async Task<ApiResponse<UserResponse>> Post([FromBody] UserRequest User)
     {
-        var operation = new CreateApplicationUserCommand(ApplicationUser);
+        var operation = new CreateUserCommand(User);
         var result = await mediator.Send(operation);
         return result;
     }
 
     [HttpPut("{id}")]
     [Authorize(Roles = "admin")]
-    public async Task<ApiResponse> Put(int id, [FromBody] ApplicationUserRequest ApplicationUser)
+    public async Task<ApiResponse> Put(int id, [FromBody] UserRequest User)
     {
-        var operation = new UpdateApplicationUserCommand(id,ApplicationUser );
+        var operation = new UpdateUserCommand(id,User );
         var result = await mediator.Send(operation);
         return result;
     }
@@ -81,7 +81,7 @@ public class ApplicationUsersController : ControllerBase
     [Authorize(Roles = "admin")]
     public async Task<ApiResponse> Delete(int id)
     {
-        var operation = new DeleteApplicationUserCommand(id);
+        var operation = new DeleteUserCommand(id);
         var result = await mediator.Send(operation);
         return result;
     }

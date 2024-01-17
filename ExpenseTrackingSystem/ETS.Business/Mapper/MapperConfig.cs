@@ -10,5 +10,8 @@ public class MapperConfig : Profile
     {
         CreateMap<ApplicationUserRequest, ApplicationUser>();
         CreateMap<ApplicationUser, ApplicationUserResponse>();
+
+        CreateMap<UserRequest, User>();
+        CreateMap<User, UserResponse>();
     }
 }
