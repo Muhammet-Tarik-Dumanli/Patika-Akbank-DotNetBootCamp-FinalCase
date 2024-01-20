@@ -9,7 +9,6 @@ namespace ETS.Api.Controllers
 {
     [Route("[controller]")]
     [ApiController]
-    [Authorize(Roles = "admin")]
     public class ExpenseCategoriesController : ControllerBase
     {
         private readonly IMediator mediator;
@@ -20,6 +19,7 @@ namespace ETS.Api.Controllers
         }
 
         [HttpGet("GetAllExpenseCategories")]
+        [Authorize(Roles = "admin, personal")]
         public async Task<ActionResult<ApiResponse<List<ExpenseCategoryResponse>>>> GetAllExpenseCategories()
         {
             var operation = new GetAllExpenseCategoriesQuery();
@@ -28,6 +28,7 @@ namespace ETS.Api.Controllers
         }
 
         [HttpGet("GetExpenseCategoryById/{id}")]
+        [Authorize(Roles = "admin, personal")]
         public async Task<ActionResult<ApiResponse<ExpenseCategoryResponse>>> GetExpenseCategoryById(int id)
         {
             var operation = new GetExpenseCategoryByIdQuery(id);
@@ -36,6 +37,7 @@ namespace ETS.Api.Controllers
         }
 
         [HttpPost("CreateExpenseCategory")]
+        [Authorize(Roles = "admin")]
         public async Task<ActionResult<ApiResponse<ExpenseCategoryResponse>>> CreateExpenseCategory([FromBody] ExpenseCategoryRequest expenseCategoryRequest)
         {
             var operation = new CreateExpenseCategoryCommand(expenseCategoryRequest);
@@ -44,6 +46,7 @@ namespace ETS.Api.Controllers
         }
 
         [HttpPut("UpdateExpenseCategory/{id}")]
+        [Authorize(Roles = "admin")]
         public async Task<ActionResult<ApiResponse>> UpdateExpenseCategory(int id, [FromBody] ExpenseCategoryRequest expenseCategoryRequest)
         {
             var operation = new UpdateExpenseCategoryCommand(id, expenseCategoryRequest);
@@ -52,11 +55,13 @@ namespace ETS.Api.Controllers
         }
 
         [HttpDelete("DeleteExpenseCategory/{id}")]
+        [Authorize(Roles = "admin")]
         public async Task<ActionResult<ApiResponse>> DeleteExpenseCategory(int id)
         {
             var operation = new DeleteExpenseCategoryCommand(id);
             var result = await mediator.Send(operation);
             return Ok(result);
         }
+        
     }
 }

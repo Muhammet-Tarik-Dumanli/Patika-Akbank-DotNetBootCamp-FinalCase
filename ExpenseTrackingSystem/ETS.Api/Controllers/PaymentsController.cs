@@ -35,6 +35,23 @@ namespace ETS.Api.Controllers
             return Ok(result);
         }
 
+        [HttpGet("GetPaymentsByUserId/{userId}")]
+        [Authorize(Roles = "admin, personal")]
+        public async Task<ActionResult<ApiResponse<List<PaymentResponse>>>> GetPaymentsByUserId(int userId)
+        {
+            try
+            {
+                var operation = new GetPaymentsByUserIdQuery(userId);
+                var result = await mediator.Send(operation);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new ApiResponse<List<PaymentResponse>>($"Error getting payments: {ex.Message}"));
+            }
+        }
+
+
         [HttpPost("CreatePayment")]
         public async Task<ActionResult<ApiResponse<PaymentResponse>>> CreatePayment([FromBody] PaymentRequest model)
         {

@@ -42,7 +42,8 @@ namespace ETS.Business.Command
             if (entity == null)
                 return new ApiResponse("Expense category not found!");
 
-            entity.CategoryName = request.Model.Name;
+            entity.CategoryName = request.Model.CategoryName;
+            entity.Description = request.Model.Description;
 
             await dbContext.SaveChangesAsync();
 

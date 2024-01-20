@@ -2,6 +2,7 @@ using AutoMapper;
 using ETS.Base.Response;
 using ETS.Data;
 using ETS.Data.Entity;
+using ETS.Data.Enums;
 using ETS.Schema;
 using MediatR;
 using static ETS.Business.CQRS.PaymentCQRS;
@@ -28,9 +29,17 @@ namespace ETS.Business.Command
             {
                 var entity = mapper.Map<PaymentRequest, Payment>(request.Model);
                 dbContext.Set<Payment>().Add(entity);
-                await dbContext.SaveChangesAsync();
+                dbContext.SaveChanges();
 
                 var response = mapper.Map<Payment, PaymentResponse>(entity);
+
+                var expense = await dbContext.Set<Expense>().FindAsync(request.Model.ExpenseId);
+                if (expense != null)
+                {
+                    expense.Status = ExpenseStatus.Approved;
+                    dbContext.SaveChanges();
+                }
+
                 return new ApiResponse<PaymentResponse>(response);
             }
             catch (Exception ex)

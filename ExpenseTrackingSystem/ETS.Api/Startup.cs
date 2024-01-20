@@ -4,7 +4,9 @@ using AutoMapper;
 using ETS.Base.Token;
 using ETS.Business.CQRS;
 using ETS.Business.Mapper;
+using ETS.Business.Validators;
 using ETS.Data;
+using FluentValidation.AspNetCore;
 using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
@@ -33,11 +35,21 @@ public class Startup
         var mapperConfig = new MapperConfiguration(cfg => cfg.AddProfile(new MapperConfig()));
         services.AddSingleton(mapperConfig.CreateMapper());
 
-        services.AddControllers();
-        // services.AddControllers().AddFluentValidation(x =>
-        // {
-        //     x.RegisterValidatorsFromAssemblyContaining<CreateCustomerValidator>();
-        // });
+        try
+        {
+            services.AddControllers().AddFluentValidation(x =>
+            {
+                x.RegisterValidatorsFromAssemblyContaining<CreateExpenseCategoryValidator>();
+                // x.RegisterValidatorsFromAssemblyContaining<CreateUserValidator>();
+                // x.RegisterValidatorsFromAssemblyContaining<CreateExpenseValidator>();
+                // x.RegisterValidatorsFromAssemblyContaining<CreatePaymentValidator>();
+            });
+
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
 
         services.AddEndpointsApiExplorer();
         services.AddSwaggerGen();
