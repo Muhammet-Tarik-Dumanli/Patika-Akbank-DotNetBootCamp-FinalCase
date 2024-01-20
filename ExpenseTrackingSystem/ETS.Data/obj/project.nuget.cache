@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7l6iSnowTWT7T4LKAz5MJ1E0NScLH+o3m/L6HjHcsPC1dihKU4PJLsNbMRNFTkyEIhF9glZc8gw7FOSrjLb8TA==",
+  "dgSpecHash": "kCG0TciPaAEoV+MhKUYey1pI8GLi/FQqz/RXzop15iP8KxKm51j/TlvTFWtsTXNGVWeU4CLL2ku6UF9YSntF+w==",
   "success": true,
-  "projectFilePath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\ETS.Data.csproj",
+  "projectFilePath": "c:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\ETS.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MUHAMMET\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\MUHAMMET\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

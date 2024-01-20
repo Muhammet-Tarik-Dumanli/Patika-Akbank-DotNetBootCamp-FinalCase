@@ -4,14 +4,14 @@
     "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Business\\ETS.Business.csproj": {}
   },
   "projects": {
-    "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj": {
+    "c:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj",
+        "projectUniqueName": "c:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj",
         "projectName": "ETS.Base",
-        "projectPath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj",
+        "projectPath": "c:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj",
         "packagesPath": "C:\\Users\\MUHAMMET\\.nuget\\packages\\",
-        "outputPath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\obj\\",
+        "outputPath": "c:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MUHAMMET\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -105,8 +105,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\ETS.Data.csproj": {
-                "projectPath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\ETS.Data.csproj"
+              "c:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\ETS.Data.csproj": {
+                "projectPath": "c:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\ETS.Data.csproj"
               },
               "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Schema\\ETS.Schema.csproj": {
                 "projectPath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Schema\\ETS.Schema.csproj"
@@ -165,14 +165,14 @@
         }
       }
     },
-    "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\ETS.Data.csproj": {
+    "c:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\ETS.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\ETS.Data.csproj",
+        "projectUniqueName": "c:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\ETS.Data.csproj",
         "projectName": "ETS.Data",
-        "projectPath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\ETS.Data.csproj",
+        "projectPath": "c:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\ETS.Data.csproj",
         "packagesPath": "C:\\Users\\MUHAMMET\\.nuget\\packages\\",
-        "outputPath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\obj\\",
+        "outputPath": "c:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MUHAMMET\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -189,8 +189,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj": {
-                "projectPath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj"
+              "c:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj": {
+                "projectPath": "c:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj"
               }
             }
           }
@@ -270,8 +270,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj": {
-                "projectPath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj"
+              "c:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj": {
+                "projectPath": "c:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj"
               }
             }
           }

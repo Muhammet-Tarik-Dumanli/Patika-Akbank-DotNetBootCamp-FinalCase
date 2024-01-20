@@ -1,4 +1,3 @@
-using System.Data.Entity;
 using AutoMapper;
 using ETS.Base.Response;
 using ETS.Business.CQRS;
@@ -54,7 +53,7 @@ public class UserQueryHandler :
         if(string.IsNullOrEmpty(request.UserName))
             predicate.And(x => x.UserName.ToUpper().Contains(request.UserName.ToUpper()));
         
-        var list =  await dbContext.Set<User>().Where(predicate).ToListAsync(cancellationToken);
+        var list = dbContext.Set<User>().Where(predicate).ToList();
 
         var mappedList = mapper.Map<List<User>, List<UserResponse>>(list);
         return new ApiResponse<List<UserResponse>>(mappedList); 

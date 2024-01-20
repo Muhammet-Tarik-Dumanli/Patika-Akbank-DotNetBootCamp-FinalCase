@@ -7,6 +7,7 @@ namespace ETS.Data.Entity;
 public class ExpenseCategory : BaseEntityWithId
 {
     public string CategoryName { get; set; }
+    public string Description { get; set; }
 
     public List<Expense> Expenses { get; set; } = new List<Expense>();
 }

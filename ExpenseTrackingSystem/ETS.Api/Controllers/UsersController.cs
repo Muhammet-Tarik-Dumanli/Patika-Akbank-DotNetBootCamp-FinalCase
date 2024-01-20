@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ETS.Api.Controllers;
 
-[Route("api/[controller]")]
+[Route("[controller]")]
 [ApiController]
 public class UsersController : ControllerBase
 {
@@ -29,27 +29,18 @@ public class UsersController : ControllerBase
         return result;
     }
     
-    [HttpGet]
+    [HttpGet("GetAllUsers")]
     [Authorize(Roles = "admin")]
-    public async Task<ApiResponse<List<UserResponse>>> Get()
+    public async Task<ApiResponse<List<UserResponse>>> GetAllUsers()
     {
         var operation = new GetAllUsersQuery();
         var result = await mediator.Send(operation);
         return result;
     }
 
-    [HttpGet("{id}")]
+    [HttpGet("GetUserByParameter")]
     [Authorize(Roles = "admin")]
-    public async Task<ApiResponse<UserResponse>> Get(int id)
-    {
-        var operation = new GetUserByIdQuery(id);
-        var result = await mediator.Send(operation);
-        return result;
-    }
-
-    [HttpGet("ByParameters")]
-    [Authorize(Roles = "admin")]
-    public async Task<ApiResponse<List<UserResponse>>> GetByParameter(
+    public async Task<ApiResponse<List<UserResponse>>> GetUserByParameter(
         [FromQuery] string? FirstName,
         [FromQuery] string? LastName,
         [FromQuery] string? UserName)
@@ -59,27 +50,27 @@ public class UsersController : ControllerBase
         return result;
     }
 
-    [HttpPost]
+    [HttpPost("CreateUser")]
     [Authorize(Roles = "admin")]
-    public async Task<ApiResponse<UserResponse>> Post([FromBody] UserRequest User)
+    public async Task<ApiResponse<UserResponse>> CreateUser([FromBody] UserRequest User)
     {
         var operation = new CreateUserCommand(User);
         var result = await mediator.Send(operation);
         return result;
     }
 
-    [HttpPut("{id}")]
-    [Authorize(Roles = "admin")]
-    public async Task<ApiResponse> Put(int id, [FromBody] UserRequest User)
+    [HttpPut("UpdateUser/{id}")]
+    [Authorize(Roles = "admin, personal")]
+    public async Task<ApiResponse> UpdateUser(int id, [FromBody] UserRequest User)
     {
         var operation = new UpdateUserCommand(id,User );
         var result = await mediator.Send(operation);
         return result;
     }
 
-    [HttpDelete("{id}")]
+    [HttpDelete("DeleteUser/{id}")]
     [Authorize(Roles = "admin")]
-    public async Task<ApiResponse> Delete(int id)
+    public async Task<ApiResponse> DeleteUser(int id)
     {
         var operation = new DeleteUserCommand(id);
         var result = await mediator.Send(operation);

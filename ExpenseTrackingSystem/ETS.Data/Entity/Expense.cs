@@ -1,4 +1,5 @@
 using ETS.Base.Entity;
+using ETS.Data.Enums;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
@@ -6,7 +7,6 @@ namespace ETS.Data.Entity;
 
 public class Expense : BaseEntityWithId
 {
-    public int Id { get; set; }
     public int UserId { get; set; }
     public int CategoryId { get; set; }
     public decimal Amount { get; set; }
@@ -14,7 +14,7 @@ public class Expense : BaseEntityWithId
     public string Location { get; set; }
     public string PaymentMethod { get; set; }
     public string ReceiptUrl { get; set; }
-    public string Status { get; set; } // Onay Bekliyor/Reddedildi/Onaylandı
+    public ExpenseStatus Status { get; set; } // Onay Bekliyor/Reddedildi/Onaylandı
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }
 

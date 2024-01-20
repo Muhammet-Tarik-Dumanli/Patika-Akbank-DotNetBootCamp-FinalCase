@@ -1,4 +1,3 @@
-using System.Data.Entity;
 using AutoMapper;
 using ETS.Base.Response;
 using ETS.Business.CQRS;
@@ -25,14 +24,14 @@ public class UserCommandHandler :
 
     public async Task<ApiResponse<UserResponse>> Handle(CreateUserCommand request, CancellationToken cancellationToken)
     {
-        var checkIdentity = await dbContext.Set<User>().Where(x => x.UserName == request.Model.UserName).FirstOrDefaultAsync(cancellationToken);
+        var checkIdentity = dbContext.Set<User>().Where(x => x.UserName == request.Model.UserName).FirstOrDefault();
         if (checkIdentity is not null)
             return new ApiResponse<UserResponse>($"{request.Model.UserName} is in use");
 
         var entity = mapper.Map<UserRequest, User>(request.Model);
 
         var entityResult = await dbContext.AddAsync(entity, cancellationToken);
-        await dbContext.SaveChangesAsync(cancellationToken);
+        dbContext.SaveChanges();
 
         var mapped = mapper.Map<User, UserResponse>(entityResult.Entity);
         return new ApiResponse<UserResponse>(mapped);
@@ -40,19 +39,22 @@ public class UserCommandHandler :
 
     public async Task<ApiResponse> Handle(DeleteUserCommand request, CancellationToken cancellationToken)
     {
-        var fromdb = await dbContext.Set<User>().Where(x => x.Id == request.Id).FirstOrDefaultAsync(cancellationToken);
+        var fromdb = dbContext.Set<User>().Where(x => x.Id == request.Id).FirstOrDefault();
 
         if (fromdb is null)
             return new ApiResponse("Record not found!");
 
         fromdb.IsActive = false;
-        await dbContext.SaveChangesAsync(cancellationToken);
+        dbContext.SaveChanges();
         return new ApiResponse();
     }
 
     public async Task<ApiResponse> Handle(UpdateUserCommand request, CancellationToken cancellationToken)
     {
-        var fromdb = await dbContext.Set<User>().Where(x => x.Id == request.Id).FirstOrDefaultAsync(cancellationToken);
+        var fromdb = dbContext.Set<User>().Where(x => x.Id == request.Id).FirstOrDefault();
+        
+        if(request.Model.Role == "personal" && request.Model.Id != fromdb.Id)
+            return new ApiResponse("You do not have the necessary authorizations to perform this operation.!");
 
         if (fromdb is null)
             return new ApiResponse("Record not found!");
@@ -62,7 +64,7 @@ public class UserCommandHandler :
         fromdb.Email = request.Model.Email;
         fromdb.Role = request.Model.Role;
 
-        await dbContext.SaveChangesAsync(cancellationToken);
+        dbContext.SaveChanges();
         return new ApiResponse();
     }
 }

@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace ETS.Api.Controllers;
 
 
-[Route("api/[controller]")]
+[Route("[controller]")]
 [ApiController]
 public class TokenController : ControllerBase
 {
