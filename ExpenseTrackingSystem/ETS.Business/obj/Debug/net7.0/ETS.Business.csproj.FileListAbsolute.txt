@@ -18,11 +18,6 @@ D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Bu
 D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Business\obj\Debug\net7.0\refint\ETS.Business.dll
 D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Business\obj\Debug\net7.0\ETS.Business.pdb
 D:\Pratikler\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Business\obj\Debug\net7.0\ref\ETS.Business.dll
-C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Business\obj\Debug\net7.0\ETS.Business.csproj.AssemblyReference.cache
-C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Business\obj\Debug\net7.0\ETS.Business.GeneratedMSBuildEditorConfig.editorconfig
-C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Business\obj\Debug\net7.0\ETS.Business.AssemblyInfoInputs.cache
-C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Business\obj\Debug\net7.0\ETS.Business.AssemblyInfo.cs
-C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Business\obj\Debug\net7.0\ETS.Business.csproj.CoreCompileInputs.cache
 C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Business\bin\Debug\net7.0\ETS.Business.deps.json
 C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Business\bin\Debug\net7.0\ETS.Business.dll
 C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Business\bin\Debug\net7.0\ETS.Business.pdb
@@ -32,6 +27,11 @@ C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\Expens
 C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Business\bin\Debug\net7.0\ETS.Data.pdb
 C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Business\bin\Debug\net7.0\ETS.Schema.pdb
 C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Business\bin\Debug\net7.0\ETS.Base.pdb
+C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Business\obj\Debug\net7.0\ETS.Business.csproj.AssemblyReference.cache
+C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Business\obj\Debug\net7.0\ETS.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Business\obj\Debug\net7.0\ETS.Business.AssemblyInfoInputs.cache
+C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Business\obj\Debug\net7.0\ETS.Business.AssemblyInfo.cs
+C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Business\obj\Debug\net7.0\ETS.Business.csproj.CoreCompileInputs.cache
 C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Business\obj\Debug\net7.0\ETS.Business.csproj.CopyComplete
 C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Business\obj\Debug\net7.0\ETS.Business.dll
 C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Business\obj\Debug\net7.0\refint\ETS.Business.dll

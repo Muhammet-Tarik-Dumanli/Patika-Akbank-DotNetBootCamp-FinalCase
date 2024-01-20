@@ -1,9 +1,11 @@
+using System.Text.Json.Serialization;
 using ETS.Base.Schema;
 
 namespace ETS.Schema;
 
 public class UserRequest : BaseRequest
 {
+    [JsonIgnore]
     public int Id { get; set; }
     public string FirstName { get; set; }
     public string LastName { get; set; }

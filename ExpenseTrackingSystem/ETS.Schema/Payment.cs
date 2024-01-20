@@ -8,6 +8,7 @@ public class PaymentRequest : BaseRequest
     public DateTime PaymentDate { get; set; }
     public int ExpenseId { get; set; }
     public string PaymentMethod { get; set; }
+    public string Description { get; set; }
 }
 
 public class PaymentResponse : BaseResponse
@@ -16,4 +17,5 @@ public class PaymentResponse : BaseResponse
     public DateTime PaymentDate { get; set; }
     public int ExpenseId { get; set; }
     public string PaymentMethod { get; set; }
+    public string Description { get; set; }
 }

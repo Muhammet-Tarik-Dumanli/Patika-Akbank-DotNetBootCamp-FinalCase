@@ -18,7 +18,9 @@ C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\Expens
 C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\bin\Debug\net7.0\ETS.Schema.dll
 C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\bin\Debug\net7.0\ETS.Schema.pdb
 C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\bin\Debug\net7.0\ETS.Base.dll
+C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\bin\Debug\net7.0\ETS.Data.dll
 C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\bin\Debug\net7.0\ETS.Base.pdb
+C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\bin\Debug\net7.0\ETS.Data.pdb
 C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\obj\Debug\net7.0\ETS.Schema.csproj.AssemblyReference.cache
 C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\obj\Debug\net7.0\ETS.Schema.GeneratedMSBuildEditorConfig.editorconfig
 C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\obj\Debug\net7.0\ETS.Schema.AssemblyInfoInputs.cache
@@ -29,5 +31,3 @@ C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\Expens
 C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\obj\Debug\net7.0\refint\ETS.Schema.dll
 C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\obj\Debug\net7.0\ETS.Schema.pdb
 C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\obj\Debug\net7.0\ref\ETS.Schema.dll
-C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\bin\Debug\net7.0\ETS.Data.dll
-C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\bin\Debug\net7.0\ETS.Data.pdb

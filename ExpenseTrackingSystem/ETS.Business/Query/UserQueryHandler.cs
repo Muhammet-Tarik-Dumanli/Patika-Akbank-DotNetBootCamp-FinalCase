@@ -13,6 +13,7 @@ public class UserQueryHandler :
     IRequestHandler<GetAllUsersQuery, ApiResponse<List<UserResponse>>>,
     IRequestHandler<GetUserByIdQuery, ApiResponse<UserResponse>>,
     IRequestHandler<GetUserByParameterQuery, ApiResponse<List<UserResponse>>>
+    
 {
     private readonly ETSDbContext dbContext;
     private readonly IMapper mapper;
