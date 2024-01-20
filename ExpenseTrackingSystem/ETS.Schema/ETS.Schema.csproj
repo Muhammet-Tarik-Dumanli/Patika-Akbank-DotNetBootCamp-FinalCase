@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ETS.Base\ETS.Base.csproj" />
+    <ProjectReference Include="..\ETS.Data\ETS.Data.csproj" />
   </ItemGroup>
 
 </Project>

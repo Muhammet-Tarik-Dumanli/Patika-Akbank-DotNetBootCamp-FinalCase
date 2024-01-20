@@ -29,3 +29,5 @@ C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\Expens
 C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\obj\Debug\net7.0\refint\ETS.Schema.dll
 C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\obj\Debug\net7.0\ETS.Schema.pdb
 C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\obj\Debug\net7.0\ref\ETS.Schema.dll
+C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\bin\Debug\net7.0\ETS.Data.dll
+C:\Patika-Akbank_BootCamp\LastWeek\Patika-Akbank-DotNetBootCamp-FinalCase\ExpenseTrackingSystem\ETS.Schema\bin\Debug\net7.0\ETS.Data.pdb

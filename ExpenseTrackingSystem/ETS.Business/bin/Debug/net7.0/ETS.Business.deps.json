@@ -1043,7 +1043,8 @@
       },
       "ETS.Schema/1.0.0": {
         "dependencies": {
-          "ETS.Base": "1.0.0"
+          "ETS.Base": "1.0.0",
+          "ETS.Data": "1.0.0"
         },
         "runtime": {
           "ETS.Schema.dll": {}

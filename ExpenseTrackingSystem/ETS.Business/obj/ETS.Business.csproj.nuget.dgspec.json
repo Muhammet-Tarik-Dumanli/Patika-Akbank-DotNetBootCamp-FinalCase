@@ -272,6 +272,9 @@
             "projectReferences": {
               "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj": {
                 "projectPath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Base\\ETS.Base.csproj"
+              },
+              "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\ETS.Data.csproj": {
+                "projectPath": "C:\\Patika-Akbank_BootCamp\\LastWeek\\Patika-Akbank-DotNetBootCamp-FinalCase\\ExpenseTrackingSystem\\ETS.Data\\ETS.Data.csproj"
               }
             }
           }

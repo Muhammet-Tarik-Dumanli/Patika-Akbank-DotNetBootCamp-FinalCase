@@ -44,6 +44,7 @@ public class MapperConfig : Profile
             .ForMember(dest => dest.Amount, opt => opt.MapFrom(src => src.Amount))
             .ForMember(dest => dest.Description, opt => opt.MapFrom(src => src.Description))
             .ForMember(dest => dest.UserId, opt => opt.MapFrom(src => src.UserId));
+            
 
         // ExpenseCategory
         CreateMap<ExpenseCategoryRequest, ExpenseCategory>()
