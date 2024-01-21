@@ -6,6 +6,9 @@ https://documenter.getpostman.com/view/32259146/2s9YsT6oiG
 Projenin çalışır halinin bazı ekran görüntüleri;
 
 Token oluşturma:
+
+
+
 ![CreateToken](https://github.com/Muhammet-Tarik-Dumanli/Patika-Akbank-DotNetBootCamp-FinalCase/assets/104081670/28a0f98a-abbe-4846-8ce8-ada7049b4f49)
 
 Authorize:
