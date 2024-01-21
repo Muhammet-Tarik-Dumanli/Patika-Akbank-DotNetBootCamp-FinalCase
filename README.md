@@ -15,10 +15,19 @@ Authorize:
 ![Authorize](https://github.com/Muhammet-Tarik-Dumanli/Patika-Akbank-DotNetBootCamp-FinalCase/assets/104081670/0db407b3-4836-453d-a451-536c98d67734)
 
 Validasyonlar:
+
+
+
+
+
 ![CategoryValidator](https://github.com/Muhammet-Tarik-Dumanli/Patika-Akbank-DotNetBootCamp-FinalCase/assets/104081670/1317e72c-85c4-4204-99d6-8c5db340cd3f)
 ![NotFound](https://github.com/Muhammet-Tarik-Dumanli/Patika-Akbank-DotNetBootCamp-FinalCase/assets/104081670/7e0a3405-2a4c-4f17-8def-64bd602858a6)
 
 CRUD işlemleri
+
+
+
+
 ![DeleteExpense](https://github.com/Muhammet-Tarik-Dumanli/Patika-Akbank-DotNetBootCamp-FinalCase/assets/104081670/9fcea631-997c-4eba-8abc-2da51f3509de)
 
 ![AcceptPayment](https://github.com/Muhammet-Tarik-Dumanli/Patika-Akbank-DotNetBootCamp-FinalCase/assets/104081670/8d3874b7-e838-41aa-aae2-215e2168152a)
